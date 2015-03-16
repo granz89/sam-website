@@ -75,6 +75,13 @@ a:hover{
 
 //////*    COVER SECTION  *///////
 
+#cover {
+	padding: 10rem 0;
+	background: transparent url("../img/placeholder-main.jpg") no-repeat center top;
+	background-size: cover;
+	padding-top: 6rem;
+	z-index: 2;
+}
 
 //////*    PORTFOLIO SECTION  *///////
 
