@@ -76,9 +76,10 @@ a:hover{
 //////*    COVER SECTION  *///////
 
 #cover{
-	background: url("/img/placeholder-main.svg");
+	background: transparent url("../img/placeholder-logo.jpg") no-repeat center top;
 	background-size: cover;
-	padding-top: 10rem;
+	padding: 6rem 0 8.5rem;
+	z-index: 2;
 }
 
 //////*    PORTFOLIO SECTION  *///////
