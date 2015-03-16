@@ -91,8 +91,8 @@ a:hover{
 .nav-logo{
 	width: 140px;
 	padding-top: 0.85em;
-	padding-left: 0.5em;
-	margin-left: 1.5em;
+	padding-left: 1em;
+	margin-left: 0em;
 }
 
 //////*    COVER SECTION  *///////
@@ -103,7 +103,8 @@ a:hover{
 	padding-bottom: 16rem;
 	z-index: 2;
 	margin-top: 5.5em;
-	margin-right: -1rem;
+	margin-right: 0em;
+	margin-left: 0em;
 }
 
 .cover-header{
@@ -218,9 +219,16 @@ a:hover{
 
 *///
 
+.img-flex {
+  display: inline-block;
+  width: 100%;
+}
+
 .grid {
   margin: 0;
-  padding: 0;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top: 3em;
   letter-spacing: -0.31em;
   list-style-type: none;
   text-rendering: optimizespeed;
@@ -232,6 +240,7 @@ a:hover{
 
 .gutter{
 	list-style-type: none;
+	padding: 0em;
 }
 
 .grid-bottom {
