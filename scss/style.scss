@@ -218,9 +218,15 @@ a:hover{
 
 *///
 
+.img-flex {
+  display: inline-block;
+  width: 100%;
+}
+
 .grid {
   margin: 0;
-  padding: 0;
+  padding-right: 1.5em;
+  padding-left: 2em;
   letter-spacing: -0.31em;
   list-style-type: none;
   text-rendering: optimizespeed;
@@ -232,6 +238,7 @@ a:hover{
 
 .gutter{
 	list-style-type: none;
+	padding: 0em;
 }
 
 .grid-bottom {
