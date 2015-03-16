@@ -11,6 +11,14 @@ compiled unless its imported into and unprefixed .scss file. */
 //Component rules
 @import "components/main";
 
+h2 {
+
+	font-family: $font-stack;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+
+}
 
 a:link,
 a:visited,
@@ -47,6 +55,7 @@ a:hover{
 	margin-right: 2em;
 	padding-top: 1em;
 	font-family: $font-stack;
+	font-size: 0.8em;
 }
 
 .nav-links li a{
@@ -76,9 +85,17 @@ a:hover{
 //////*    COVER SECTION  *///////
 
 #cover{
-	background: url("/img/placeholder-main.svg");
+	background: transparent url("../img/placeholder-main.jpg") no-repeat center top;
 	background-size: cover;
-	padding-top: 10rem;
+	padding-bottom: 18rem;
+	z-index: 2;
+	margin-top: 5.5em;
+	margin-right: -1rem;
+}
+
+.cover-header{
+	padding-top: 12em;
+
 }
 
 //////*    PORTFOLIO SECTION  *///////
