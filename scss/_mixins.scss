@@ -1,0 +1,43 @@
+/* This file contains all our mixins */
+
+@mixin button($bg-color, $color, $hover-color){
+	background-color: $bg-color;
+	border-radius: 3px;
+	padding: .5em 1em;
+	margin: 1em;
+	display: inline-block;
+	text-decoration: none;
+	color: $color;
+	&:hover{
+		background-color: $hover-color;
+	}
+}
+
+
+@mixin button{
+	background-color:$primary;
+	display: inline-block;
+	margin: 2rem 3rem;
+	font-weight: bold;
+	width: 160px;
+	height: 160px;
+	font-size: 7rem;
+	text-align: center;
+	color:white;
+	text-transform: uppercase;
+	border: 3px solid $secondary;
+	border-radius: 80px;
+	box-shadow: 0 0 0 5px $primary;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	&:hover{
+		 background-color: $primary-dark;
+  		 box-shadow:0 0 0 5px $primary-dark;
+	}
+
+}
+
+	
