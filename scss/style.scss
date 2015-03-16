@@ -129,11 +129,21 @@ section {
 
 .grid{
 	list-style-type: none;
+	display: inline-block;
+
 }
 
+.grid-3{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+
 .grid-row{
-  list-style-type: none;
-  display: inline-block;
+	display: inline;
+
 }
 //////*    SKILLS SECTION  *///////
 
