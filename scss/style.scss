@@ -75,10 +75,11 @@ a:hover{
 
 //////*    COVER SECTION  *///////
 
-#cover{
-	background: transparent url("../img/placeholder-logo.jpg") no-repeat center top;
+#cover {
+	padding: 10rem 0;
+	background: transparent url("../img/placeholder-main.jpg") no-repeat center top;
 	background-size: cover;
-	padding: 6rem 0 8.5rem;
+	padding-top: 6rem;
 	z-index: 2;
 }
 
