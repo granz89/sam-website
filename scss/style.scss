@@ -127,24 +127,23 @@ section {
   background-color: #ffffff;
 }
 
-.grid{
+.grid {
 	list-style-type: none;
-	display: inline-block;
-
+	padding-top: 4em;
 }
 
-.grid-3{
+.grid ul {
 	list-style-type: none;
+	display: block;
+	text-align: center;
+	margin: 0;
+}
+
+.grid li {
 	display: inline-block;
-	float: left;
-	overflow: hidden;
 }
 
 
-.grid-row{
-	display: inline;
-
-}
 //////*    SKILLS SECTION  *///////
 
 //////*    ABOUT SECTION  *///////
